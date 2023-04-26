@@ -1,6 +1,6 @@
 # sonica
 
-### random ideas and fleeting audios
+## random ideas and fleeting audios
 
 Coded with love by [@ekosistema](https://github.com/ekosistema).
 
