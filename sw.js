@@ -1,11 +1,11 @@
-const CACHE_NAME = "my-cache-v1";
+const CACHE_NAME = "my-cache";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(CACHE_NAME)
       .then((cache) =>
-        cache.addAll(["/", "/index.html", "/styles.css", "/app.js"])
+        cache.addAll(["/", "/index.html", "/favicon.ico", "/manifest.json"])
       )
   );
 });
